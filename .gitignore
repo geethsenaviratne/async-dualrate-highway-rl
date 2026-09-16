@@ -1,0 +1,23 @@
+# Datasets: never commit (large, and highD's licence forbids redistribution)
+data/raw/
+data/processed/
+*.csv
+*.parquet
+
+# Training outputs
+runs/
+checkpoints/
+*.zip
+results/**/*.png
+!results/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
