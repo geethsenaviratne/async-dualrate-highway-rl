@@ -1,0 +1,17 @@
+# Core simulation + RL
+gymnasium>=1.0
+highway-env>=1.12        # continuous-physics highway simulator (Farama)
+stable-baselines3>=2.3   # SAC implementation (pulls in torch)
+torch                    # install the CPU or CUDA build that matches your machine
+
+# Data pipeline
+numpy
+pandas
+pyarrow                  # Parquet files for processed scenarios
+scipy                    # splines (highway-env no longer installs scipy for you)
+
+# Plots, logging, notebooks
+matplotlib
+tensorboard
+jupyter
+tqdm
